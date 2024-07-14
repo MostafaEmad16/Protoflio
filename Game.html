@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>protoflio Mostafa</title>
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+      <header class="header">
+        <a href="#Home" class="logo">portfolio</a>
+
+        <i class='bx bx-menu'id="menu-icon"></i>
+        <nav class="navbar">
+          <a onclick="go()" href="#" class="active">Home</a>
+          <script>
+            function go()
+            {
+              location.replace("Profile.html")
+            }
+          </script>
+          <a href="#About">About</a>
+          <a href="#services">services</a>
+          <a href="#services">Profile</a>
+          <a href="#contact">contact</a>
+        </nav>
+      </header>
+    <!-- portfolio section design -->
+     <section class="profile" id="profile">
+      <h2 style="text-align:center;" class="heading"><span style="font-size: 5rem;">Game</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-Box">
+          <img src="car.png" alt="">
+          <div class="protoflio-layer">
+            <h4 onclick="car()">Car</h4>
+            <p onclick="car()"></p>
+            <a onclick="car()" href="#"><i onclick="" class='bx bx-link-external'></i></a>
+          </div>
+          <script>
+            function car()
+            {
+              location.replace("Car/index.html")
+            }
+          </script>
+        </div>
+
+        <div class="portfolio-Box">
+          <img src="breakout.png" alt="">
+          <div class="protoflio-layer">
+            <h4 onclick=" breakout()"> breakout</h4>
+            <p onclick=" breakout()"></p>
+            <a onclick=" breakout()" href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+          <script>
+            function breakout()
+            {
+              location.replace("breakout-master/index.html")
+            }
+          </script>
+        </div>
+
+        <div class="portfolio-Box">
+          <img src="chees.png" alt="">
+          <div class="protoflio-layer">
+            <h4 onclick="Chess()" >Chess</h4>
+            <p onclick="Chess()" ></p>
+            <a onclick="Chess()" href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+        <script>
+          function Chess()
+          {
+            location.replace("CHESS/index.html")
+          }
+        </script>
+
+        <div class="portfolio-Box">
+          <img src="memory.png" alt="">
+          <div class="protoflio-layer">
+            <h4 onclick="memory()">memory</h4>
+            <a onclick="memory()" href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+          <script>
+            function memory()
+            {
+              location.replace("memory-game-master/index.html")
+            }
+          </script>
+        </div>
+
+        <div class="portfolio-Box">
+          <img src="snake.png" alt="">
+          <div class="protoflio-layer">
+            <h4 onclick="snake()" >snake</h4>
+            <p onclick="snake()" ></p>
+            <a onclick="snake()" href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+          <script>
+            function snake()
+            {
+              location.replace("Snake/index.html")
+            }
+          </script>
+        </div>
+
+        <div class="portfolio-Box">
+          <img src="ping.png" alt="">
+          <div class="protoflio-layer">
+            <h4 onclick="ping()">ping</h4>
+            <a onclick="ping()" href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+          <script>
+            function ping()
+            {
+              location.replace("ping/index.html")
+            }
+          </script>
+        </div>
+
+        <div class="portfolio-Box">
+          <img src="Puzzle.png" alt="">
+          <div class="protoflio-layer">
+            <h4 onclick="puzzle()">ping</h4>
+            <a onclick="puzzle()" href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+          <script>
+            function puzzle()
+            {
+              location.replace("puzzle/index.html")
+            }
+          </script>
+        </div>
+
+        <div class="portfolio-Box">
+          <img src="Sli.png" alt="">
+          <div class="protoflio-layer">
+            <h4 onclick="slidepuzzle()">ping</h4>
+            <a onclick="slidepuzzle()" href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+          <script>
+            function slidepuzzle()
+            {
+              location.replace("slide puzzle/index.html")
+            }
+          </script>
+        </div>
+
+        <div class="portfolio-Box">
+          <img src="Tik.png" alt="">
+          <div class="protoflio-layer">
+            <h4 onclick="tik()">ping</h4>
+            <a onclick="tik()" href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+          <script>
+            function tik()
+            {
+              location.replace("tic tak/tictactoeTutorial.html")
+            }
+          </script>
+        </div>
+
+        <div class="portfolio-Box">
+          <img src="connect4.png" alt="">
+          <div class="protoflio-layer">
+            <h4 onclick="connect4()">ping</h4>
+            <a onclick="connect4()()" href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+          <script>
+            function connect4()
+            {
+              location.replace("connect4/index.html")
+            }
+          </script>
+        </div>
+      </div>
+     </section>
+    <!-- contact section design -->
+ 
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="Game.js"></script>
+  </body>
+ <style>
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --text-color: #fff;
+  --main-color: #0ef;
+}
+*::selection {
+  background: var(--main-color);
+  color: var(--bg-color);
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+section{
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 9%;
+  background:  var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.header.sticky {
+  border-radius: 1rem solid rgba(0,0,0,2);
+}
+.logo{
+  font-size: 2.5rem;
+  color: var(--text-color);
+  font-weight: 600;
+  cursor: default;
+}
+.navbar a{
+  font-size: 1.7rem;
+  color: var(--text-color);
+  margin-left: 4rem;
+  transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active{
+  color: var(--main-color);
+} 
+#menu-icon{
+  font-size: 3.6rem;
+  color: var(--text-color);
+  display: none;
+}
+
+span {
+  color:  var(--main-color);
+}
+.portfolio {
+  background: var(--second-bg-color);
+}
+
+.portfolio h2 {
+  margin-bottom: 4rem;
+}
+
+.portfolio-container {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+align-items: center;
+gap :2.5rem;
+}
+.portfolio-container .portfolio-Box {
+  position: relative;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem var(--bg-color);
+  overflow: hidden;
+  display: flex;
+}
+.portfolio-Box img {
+  width: 100%;
+  transition: .5s ease;
+}
+.portfolio-Box:hover img {
+  transform: scale(1.1);
+}
+.portfolio-Box .protoflio-layer {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background :linear-gradient(rgba( 0 , 0 , 0 , 1 ) , var(--main-color));
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+padding: 0 4rem;
+transform: translateY(100% );
+transition: .5s ease;
+} 
+.portfolio-Box:hover .protoflio-layer{
+  transform: translateY(0);
+}
+.protoflio-layer h4{
+  font-size: 3rem;
+}
+
+.protoflio-layer p {
+  font-size: 1.6rem ;
+  margin: .3rem 0 1rem ;
+}
+.protoflio-layer a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  background: var(--text-color);
+  border-radius: 50%;
+}
+
+.protoflio-layer a i {
+  font-size: 2rem;
+  color: var(--second-bg-color);
+}
+
+
+
+ </style>
+</html>
